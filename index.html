@@ -1,0 +1,93 @@
+<DOCtype html>
+
+    <head>
+        <meta lang="en" charset="UTF-8">
+        <title> The Survey Form</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+
+        <div class="container" id="main-container">
+
+            <div>
+                <h1 id="title" class="text-center h1">The Epic Survey Form</h1>
+                <p id="description" class="text-center">Please take this survey so that
+                    I can tell the world, I can make Survey Forms. Thanks!!! </p>
+                <div>
+
+
+                    <form id="survey-form">
+
+                        <div>
+                            <fieldset>
+                                <legend>Personal Details</legend>
+                                <label for="name" id="name-label"> Enter Your Name: </label><br>
+                                <input id="name" name="name" type="text" required placeholder="Full Name">
+
+                                <label for="email" id="email-label">Enter your email:</label><br>
+                                <input type="email" id="email" name="email" placeholder="email" required>
+                                <label for="number" id="number-label">Enter Mobile Number: </label><br>
+                                <input id="number" name="number" type="number" min="12345678910" max="123456789101200"
+                                    placeholder="Mobile Number">
+                            </fieldset>
+                        </div>
+
+                        <div class="playsport">
+                            <fieldset>
+                                <legend>Do you play outdoor sports?</legend>
+                                <input type="radio" value="yes" name="yess"><br>
+                                <label for="yes">Yes</label><br>
+                                <input type="radio" value="no" name="yess"><br>
+                                <label for="no">No</label><br>
+                            </fieldset>
+                        </div>
+
+                        <div>
+                            <fieldset>
+                                <legend>What is your favourite sport?</legend>
+                                
+                                <input type="checkbox" name="favsport" id="cricket_" value="cricket" checked>
+                                <label for="cricket" id="radio-label">Cricket <label> <br>
+
+                                <input type="checkbox" name="favsport" id="footy" value="Football">
+                                <label for="footy"> Football </label> <br>
+
+                                <input type="checkbox" name="favsport" id="other" value="other">
+                                <label for="other"> Other </label>
+
+                            <fieldset>
+                        </div>
+
+                        <div>
+                            <fieldset>
+                                <legend>Your Favourite Team</legend>
+                                <select type="select" id="dropdown">
+                                    <option value="oz"> Australia </option>
+                                    <option value="eng"> England </option>
+                                    <option value="pak"> Pakistan </option>
+                                </select>
+                            </fieldset>
+                        </div>
+
+                        <div>
+                            <fieldset>
+                                <p>Feeback</p>
+                                <textarea cols="50" style="max-width: 100%">
+            </textarea> <br>
+
+                                <button type="submit" id="submit"> Submit </button>
+                            </fieldset>
+                        </div>
+
+
+                    </form>
+
+
+
+
+
+                </div>
+    </body>
+
+    </html>

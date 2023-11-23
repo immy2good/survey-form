@@ -1,0 +1,126 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5D12D2;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 5rem;
+}
+
+h1 {
+  font-family: Roboto, Sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+}
+
+.text-center {
+
+  text-align: center;
+
+}
+
+.radioLeft {
+  text-align: left;
+}
+
+p {
+  font-family: sans-serif, Arial;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+input {
+  margin: 2em 0;
+  padding: 15px 15px 5px 15px;
+  border-radius: 2em;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+fieldset {
+  border: 3px solid #FFE5E5;
+  border-radius: 2rem;
+  margin: 1.5rem;
+  text-align: left;
+}
+
+#personal {
+  background-color: #5D12D2;
+  border-radius: 2em;
+  border: none;
+}
+
+#radiofield {
+  background-color: #5D12D2;
+  border-radius: 2em;
+}
+
+  .playsport {
+    color: whitesmoke;
+  }
+
+
+
+legend {
+  background-color: #B931FC;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  border-radius: 5rem;
+  font-size: 1.2em;
+}
+
+.formbox {
+  background-color: #5D12D2;
+  width: 80%;
+  padding: 3rem;
+  margin: 2rem;
+  border-radius: 2em;
+
+
+
+
+
+}
+
+
+#name-label {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+#email-label {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+#number-label {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+#radio-label {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+label {
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-align: left;
+}
